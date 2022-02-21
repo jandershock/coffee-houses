@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.list .shop  {
+    flex-basis: 30%;
+}
