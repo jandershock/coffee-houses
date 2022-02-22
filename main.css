@@ -1,9 +1,69 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .list {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    max-width: 70em;
 }
 
 .list .shop  {
     flex-basis: 30%;
+    border: thin dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    background-color: rgb(102, 84, 61);
+    margin: .3em;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-top: .1em;
+    margin-left: .4em;
+    color:rgb(219, 177, 122); 
+}
+
+.info p {
+    margin: 0;
+}
+
+.info h4 {
+    margin: 0;
+}
+
+.links {
+    flex-direction: row;
+    margin-bottom: 0.4em;
+    margin-top: 1.5em;
+    margin-left: .25em;
+    margin-right: 0.25em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a {
+    flex-basis: 50%;
+    border: thin dotted rgb(119, 112, 112);
+    text-align: center;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(212, 212, 212);
+    background-color: rgb(129, 107, 77);
+    margin: 0 0.2em;
+    padding: 0.375em 0.05em;
+    min-width: 5.4em;
+}
+
+.links div{
+    flex-direction: row;
 }
